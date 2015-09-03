@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  text-align: center;
+  border-style: solid;
+  background-color: #b0ceed;
+}
+
+#navigation {
+  text-align: left;
+  border-style: solid;
+}
+
+#main {
+  display: flex;
+}
+
+#sidebar {
+  text-align: left;
+  display: inline-block;
+  float: left;
+  width: 25%;
+  border-style: solid;
+}
+
+#section {
+  text-align: left;
+  display: inline-block;
+  float: right;
+  width: 75%;
+  border-style: solid;
+}
+
+#footer {
+  text-align: center;
+  clear: both;
+  border-style: solid;
+  background-color: #b0ceed;
+}
