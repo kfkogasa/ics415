@@ -37,27 +37,49 @@
       <h2>Forms Page</h2>
       (using post method)
 
-      <form action="forms.html" method="post">
-        <p>The following is a text input:</p>
+      <form action="forms.html" method="get">
+        <p>Text input:</p>
         Username: <input type="text" name="username"><br>
 
-        <p>Then a password input:</p>
+        <p>Password input:</p>
         Password: <input type="password" name="password"><br>
 
-        <p>Then an email input:</p>
+        <p>Email input:</p>
         Email: <input type="email" name="email"><br>
 
-        <p>Then a URL input:</p>
+        <p>URL input:</p>
         Webpage: <input type="url" name="webpage"><br>
 
         <p>Radio Buttons:</p>
         <input type="radio" name="sex" value="male">Male<br>
         <input type="radio" name="sex" value="female">Female<br>
 
+        <p>Date input:</p>
+        Birhdate: <input type="date" name="bday">
+
+        <p>Color input:</p>
+        Favorite color: <input type="color" name="favcolor"><br>
+
         <p>Checkboxes:</p>
         <input type="checkbox" name="os1" value="windows">Windows<br>
         <input type="checkbox" name="os2" value="osx">OS X<br>
         <input type="checkbox" name="os3" value="linux">Linux<br>
+
+        <p>Datetime input:</p>
+        Current date/time: <input type="datetime" name="currddatetime"><br>
+
+        <p>Month input:</p>
+        Month/year of your bday: <input type="month" name="bdaymonyr"><br>
+
+        <p>Number input:</p>
+        Lucky number: <input type="number" name="luckkynumber"><br>
+
+        <p>Range input:</p>
+        Number between 0 and 50: <input type="range" name="randomnumber" min="0" max="50"><br>
+
+        <p>Search input:</p>
+        Search this site: <input type="search" name="searchthissite">
+
 
         <p>Submit button to send form data</p>
         <input type="submit" value="Submit">
