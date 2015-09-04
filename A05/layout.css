@@ -1,0 +1,99 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+a:link {
+  color: #5997e1;
+}
+
+a:visited {
+  color: mediumpurple;
+}
+
+a:hover {
+  color: #daabdb;
+}
+
+a:active {
+  color: palevioletred;
+}
+
+#header {
+  text-align: center;
+  border-style: solid;
+  border-color: slategrey;
+  background-color: #b0ceed;
+  height: 25%;
+  width: 100%;
+  display: table;
+}
+
+#header h1 {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+}
+
+#navbar {
+  display: table;
+  width: 100%;
+  height: 50px;
+}
+
+#navigation {
+  text-align: left;
+  border-style: solid;
+  border-color: slategrey;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 50px;
+}
+
+#main {
+  display: flex;
+  min-height: 50%;
+}
+
+#sidebar {
+  text-align: left;
+  color: midnightblue;
+  display: inline-block;
+  float: left;
+  width: 25%;
+  border-style: solid;
+  border-color: slategrey;
+  min-height: 50%;
+}
+
+#section {
+  text-align: left;
+  color: midnightblue;
+  display: inline-block;
+  float: right;
+  width: 75%;
+  border-style: solid;
+  border-color: slategrey;
+  padding: 1%;
+  min-height: 100%;
+}
+
+#footer {
+  text-align: center;
+  clear: both;
+  border-style: solid;
+  border-color: slategrey;
+  background-color: #b0ceed;
+  height: 50px;
+}
+
+#extra {
+  background-image: url("http://i955.photobucket.com/albums/ae36/koneko22/cherryBlossoms_zpsrv9sh0nj.jpg");
+  background-size: 100%;
+  height: 50%;
+  border-style: solid;
+  border-color: slategrey;
+}
