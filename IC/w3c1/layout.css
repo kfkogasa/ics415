@@ -1,0 +1,71 @@
+a:link {
+  color: #5997e1;
+}
+
+a:visited {
+  color: mediumpurple;
+}
+
+a:hover {
+  color: #daabdb;
+}
+
+a:active {
+  color: palevioletred;
+}
+
+#header {
+/*  border-style: solid;
+  border-color: slategrey;*/
+  background-color: #b0ceed;
+}
+
+/*#navigationbar {
+  display: table;
+  width: 100%;
+  height: 50px;
+}
+
+#navigation {
+  border-style: solid;
+  border-color: slategrey;
+}
+*/
+/*#main {
+ display: flex;
+ min-height: 50%;
+
+overflow: hidden;
+
+}
+*/
+
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ * from http://getbootstrap.com.vn/examples/equal-height-columns/equal-height-columns.css
+ */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.sidebar {
+  color: midnightblue;
+  border-right-style: solid;
+  border-color: slategrey;
+}
+
+#section {
+  color: midnightblue;
+  border-style: dashed;
+  border-color: slategrey;
+}
+
+#footer {
+  border-style: solid;
+  border-color: slategrey;
+  background-color: #b0ceed;
+}
