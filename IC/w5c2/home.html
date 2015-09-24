@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>IC Assignment</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap -->
+  <link href="bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="layout.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="myScript.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+  <div id="header">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="text-center">IC Assignment</h1>
+      </div>
+    </div>
+  </div>
+
+
+  <nav class="navbar navbar-default">
+    <div id="navigation">
+      <div class="row">
+        <div class="col-sm-12">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="home.html">Home</a></li>
+            <!--<li><a href="forms.html">Forms</a></li>-->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="main">
+    <div class="row row-eq-height">
+      <div class="col-sm-3 sidebar">
+        <div id="sidebar">
+
+          <h3>Sidebar</h3>
+
+          The sidebar takes up 25% of the window.<br>
+
+          <p id="date"></p>
+        </div>
+      </div>
+
+
+      <div class="col-sm-9">
+        <div id="section">
+          <h3>Home:</h3>
+          The following are sample JQuery animations and AJAX<br><br>
+
+          <div id="fade">
+            <h4>Sample fadeIn/fadeOut</h4>
+            <p>The buttons fade out and in the header div (fadeOut is slow speed, fadeIn is fast)</p>
+            <button class="btn btn-default" id="fadeOut">Click me to fadeOut!</button>
+            <button class="btn btn-default" id="fadeIn">Click me to fadeIn!</button>
+          </div>
+
+          <div id="hide-show">
+            <h4>Sample hide/show:</h4>
+            <p>The buttons affect the footer div</p>
+            <button class="btn btn-default" id="hide">Click me to hide!</button>
+            <button class="btn btn-default" id="show">Click me to show!</button>
+          </div>
+
+          <div id="loadSection">
+            <h4>Sample load:</h4>
+            <p>Click the button to change the content in the sidebar</p>
+            <button class="btn btn-default" id="load">Click me!</button>
+          </div>
+
+          <div id="getSection">
+            <h4>Sample get:</h4>
+            <p>Click the button and a pop-up alert will appear with data from another file on the server</p>
+            <button class="btn btn-default" id="get">Click me!</button>
+          </div>
+
+          <div id="load2Section">
+            <h4>Sample get:</h4>
+            <p>Click the button to try an AJAX call to another server</p>
+            <button class="btn btn-default" id="load2">Click me!</button>
+          </div>
+
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <div class="row">
+      <div class="col-sm-12">
+        <p class="text-center">Copyright (C) Kristin Kogasaka</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --added in head
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+-->
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap.min.js"></script>
+
+</body>
+</html>
