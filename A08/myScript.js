@@ -51,7 +51,6 @@ $(document).ready(function () {
     var url = $("#url").val();
 
     $.get(url, function (data) {
-      $("#sidebar").text(data);
       var links = data.match(/a href/g);
       var count = links.length;
       $("#count").text("there are " + count + " links");
