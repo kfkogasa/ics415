@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Assignment 08</title>
+
+  <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  -->
+
+  <!-- Bootstrap -->
+  <link href="bootstrap.min.css" rel="stylesheet">
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="layout.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+<!--
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  <script type="text/javascript" src="http://dev.jquery.com/view/trunk/plugins/validate/jquery.validate.js"></script>
+-->
+  <!--  <script type="text/javascript" src="http://dev.jquery.com/view/trunk/plugins/validate/jquery.validate.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>-->
+
+  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>jQuery validation plugin-->
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script> <!--jQuery validation plugin-->
+  <script src="myScript.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+  <div id="header">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="text-center">Assignment 08</h1>
+
+      </div>
+    </div>
+  </div>
+
+
+  <nav class="navbar navbar-default">
+    <div id="navigation">
+      <div class="row">
+        <div class="col-sm-12">
+          <ul class="nav navbar-nav">
+            <li><a href="home.html">Home</a></li>
+            <li class="active"><a href="form.html">Forms</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="main">
+    <div class="row row-eq-height">
+      <div class="col-sm-3 sidebar">
+        <div id="sidebar">
+          <h3>Sidebar</h3>
+
+          The sidebar takes up 25% of the window.<br>
+        </div>
+      </div>
+
+
+      <div class="col-sm-9">
+        <div id="section">
+          <h3>Form:</h3>
+
+          <form name="myForm" id="myForm" >
+            <div class="form-group">
+              <label for="url">URL: </label>
+              <input type="text" name="url" id="url">
+            </div>
+            <input type="submit" value="Submit">
+          </form>
+
+          <div id="count"></div>
+          <div id="links2"></div>
+          <div id="data"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <div class="row">
+      <div class="col-sm-12">
+        <p class="text-center">Copyright (C) Kristin Kogasaka</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+html, body, .container-fluid, .row, .col-sm-12{
+  height: 100%;
+}
+
+#header {
+  height: 25%;
+}
+
+#navigation {
+  height: 50px;
+}
+
+.navbar {
+  min-height: 50px;
+  height: 50px;
+}
+
+li.active, li > a {
+  height: 50px;
+}
+
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ * from http://getbootstrap.com.vn/examples/equal-height-columns/equal-height-columns.css
+ */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+#footer {
+  height: 50px;
+}
